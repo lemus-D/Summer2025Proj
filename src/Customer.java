@@ -23,4 +23,30 @@ public class Customer {
         MON, TUE, WED, THU, FRI, SAT
     }
 
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String newName) {
+        this.name = newName;
+    }
+    public route getRoute(){
+        return route;
+    }
+    public void setRoute(route newRoute){
+        this.route = newRoute;
+    }
+    public String getAddress() {
+        return Address;
+    }
+    public void setAddress(String newAddress) {
+        this.Address = newAddress;
+    }
+    public int getPhoneNumber() {
+        return phoneNumber;
+    }
+    public void setPhoneNumber(int newPhoneNumber) {
+        this.phoneNumber = newPhoneNumber;
+    }
+
 }
