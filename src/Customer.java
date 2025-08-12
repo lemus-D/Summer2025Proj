@@ -19,9 +19,7 @@ public class Customer {
 
 
 
-    public enum route {
-        MON, TUE, WED, THU, FRI, SAT
-    }
+
 
 
     public String getName() {
